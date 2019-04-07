@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="js/app.js"></script>
+    <title>Santa's List</title>
+  </head>
+  <body>
+    <div class="snowflakes" aria-hidden="true">
+      <div class="snowflake">
+      ❅
+      </div>
+      <div class="snowflake">
+      ❆
+      </div>
+      <div class="snowflake">
+      ❅
+      </div>
+      <div class="snowflake">
+      ❆
+      </div>
+      <div class="snowflake">
+      ❅
+      </div>
+      <div class="snowflake">
+      ❆
+      </div>
+      <div class="snowflake">
+        ❅
+      </div>
+      <div class="snowflake">
+        ❆
+      </div>
+      <div class="snowflake">
+        ❅
+      </div>
+      <div class="snowflake">
+        ❆
+      </div>
+      <div class="snowflake">
+        ❅
+      </div>
+      <div class="snowflake">
+        ❆
+      </div>
+    </div>
+    <div class="content">
+      <div class="header">
+        <h1 class="animation">Santa's List</h1>
+        <h2 id="dearsanta">Dear Santa,</h2>
+        <h2>Have I been good this year?</h2>
+      </div>
+
+      <form id="new-item-form" autocomplete="off">
+        <div id="form-wrapper">
+          <div class="form-item">
+            <label for="first" class="primary">Regards,</label>
+          </div>
+          <input type="text" id="first" required/>
+        </div>
+        <input type="submit" value="Send" class="buts"/>
+        <button type="button" id="delete-button">Restart</button>
+      </form>
+      <ul id='santa-list'></ul>
+
+
+    </div>
+
+  </body>
+
+</html>
